@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:src="@drawable/logonew2" />
+
+
+
+        <TextView
+            android:textColor="#E71D1D"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warning:"
+            android:textFontWeight="bold"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:textColor="#131010"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="              This mobile application is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program,or any portion of it, may result in severe civil and criminal penalties, and will be presecuted to the maximum extent possible  under law."           android:textFontWeight="bold"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="157dp"
+                android:background="@drawable/skpi" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+        <TextView
+            android:textColor="#160F0F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This product is licensed to:"
+            android:textFontWeight="bold"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:textColor="#FF5722"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOHBI KOHGEI (Phils.) Inc."
+            android:textFontWeight="bold"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:textColor="#1D1B1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Special Economic Zone Lima Technology Center Lipa City, Batangas, Phils."
+            android:textFontWeight="bold"
+            android:textSize="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#131518"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:textColor="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2019"
+            android:textFontWeight="bold"
+            android:textSize="22dp"/>
+        <TextView
+            android:textColor="#131518"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IT Officer: Hanzel Mendania"
+            android:textFontWeight="bold"
+            android:textSize="22dp"/>
+        <TextView
+            android:textColor="#131518"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requested by: Reggie Lubrica"
+            android:textFontWeight="bold"
+            android:textSize="22dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
